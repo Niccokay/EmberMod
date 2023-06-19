@@ -7,3 +7,6 @@ loot tables
 added
 Slabs
 -colored Planks
+----
+Added:
+Language: Italian -> it_it.json
