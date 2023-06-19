@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:yellow_planks"
+          "name": "embermod:yellow_planks"
         }
       ],
       "conditions": [

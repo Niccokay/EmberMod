@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:light_gray_planks"
+          "name": "embermod:light_gray_planks"
         }
       ],
       "conditions": [

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "yyy" ],
+  "key": {
+    "y": {
+      "item": "embermod:green_planks"
+    }
+  },
+  "result":{
+    "item": "embermod:green_plank_slab",
+    "count": 6
+  }
+}

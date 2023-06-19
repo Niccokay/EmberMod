@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "embermod:block/slab/magenta_plank_slab"
+    },
+    "type=double": {
+      "model": "embermod:block/planks/magenta_planks"
+    },
+    "type=top": {
+      "model": "embermod:block/slab/magenta_plank_slab_top"
+    }
+  }
+}

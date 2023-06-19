@@ -1,6 +1,7 @@
 package net.nic.em.aid.util;
 
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.nic.em.block.slab.slabColoredPlanks;
 import net.nic.em.block.solid.planksColored;
 import net.nic.em.items.genItems;
 
@@ -16,5 +17,6 @@ public class regList {
         planksColored.register(eventBus);
 
         // Slabs
+        slabColoredPlanks.register(eventBus);
     }
 }

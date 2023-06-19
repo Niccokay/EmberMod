@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:lime_planks"
+          "name": "embermod:lime_planks"
         }
       ],
       "conditions": [

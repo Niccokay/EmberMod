@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:light_blue_planks"
+          "name": "embermod:light_blue_planks"
         }
       ],
       "conditions": [

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "embermod:block/slab/lime_plank_slab"
+    },
+    "type=double": {
+      "model": "embermod:block/planks/lime_planks"
+    },
+    "type=top": {
+      "model": "embermod:block/slab/lime_plank_slab_top"
+    }
+  }
+}

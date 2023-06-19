@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "embermod:block/purple_planks",
+    "top": "embermod:block/purple_planks",
+    "side": "embermod:block/purple_planks"
+  }
+}

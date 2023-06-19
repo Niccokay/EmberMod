@@ -16,6 +16,23 @@
   "block.embermod.white_planks": "White Planks",
   "block.embermod.yellow_planks": "Yellow Planks",
 
+  "block.embermod.black_plank_slab": "Black Plank Slab",
+  "block.embermod.blue_plank_slab": "Blue Plank Slab",
+  "block.embermod.brown_plank_slab": "Brown Plank Slab",
+  "block.embermod.cyan_plank_slab": "Cyan Plank Slab",
+  "block.embermod.gray_plank_slab": " Gray Plank Slab",
+  "block.embermod.green_plank_slab": "Green Plank Slab",
+  "block.embermod.light_blue_plank_slab": "Light Blue Plank Slab",
+  "block.embermod.light_gray_plank_slab": "Light Gray Plank Slab",
+  "block.embermod.lime_plank_slab": "Lime Plank Slab",
+  "block.embermod.magenta_plank_slab": "Magenta Plank Slab",
+  "block.embermod.orange_plank_slab": "Orange Plank Slab",
+  "block.embermod.pink_plank_slab": "Pink Plank Slab",
+  "block.embermod.purple_plank_slab": "Purple Plank Slab",
+  "block.embermod.red_plank_slab": "Red Plank Slab",
+  "block.embermod.white_plank_slab": "White Plank Slab",
+  "block.embermod.yellow_plank_slab": "Yellow Plank Slab",
+
   "itemGroup.ember_blocks": "Embers' Blocks"
 
 }

@@ -1,3 +1,9 @@
 Organizational Improvements
 -restructuring
 ----
+fixed
+loot tables
+
+added
+Slabs
+-colored Planks

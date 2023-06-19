@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:magenta_planks"
+          "name": "embermod:magenta_planks"
         }
       ],
       "conditions": [

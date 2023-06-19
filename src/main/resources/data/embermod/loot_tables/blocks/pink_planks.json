@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "delbase:pink_planks"
+          "name": "embermod:pink_planks"
         }
       ],
       "conditions": [

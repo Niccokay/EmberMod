@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "embermod:block/slab/light_blue_plank_slab"
+    },
+    "type=double": {
+      "model": "embermod:block/planks/light_blue_planks"
+    },
+    "type=top": {
+      "model": "embermod:block/slab/light_blue_plank_slab_top"
+    }
+  }
+}

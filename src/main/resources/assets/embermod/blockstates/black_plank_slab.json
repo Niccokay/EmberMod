@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "embermod:block/slab/black_plank_slab"
+    },
+    "type=double": {
+      "model": "embermod:block/planks/black_planks"
+    },
+    "type=top": {
+      "model": "embermod:block/slab/black_plank_slab_top"
+    }
+  }
+}
