@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "embermod:block/lime_planks" }
+    "": { "model": "embermod:block/planks/lime_planks" }
   }
 }

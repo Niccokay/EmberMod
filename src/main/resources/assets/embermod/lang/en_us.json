@@ -14,6 +14,8 @@
   "block.embermod.purple_planks": "Purple Planks",
   "block.embermod.red_planks": "Red Planks",
   "block.embermod.white_planks": "White Planks",
-  "block.embermod.yellow_planks": "Yellow Planks"
+  "block.embermod.yellow_planks": "Yellow Planks",
+
+  "itemGroup.ember_blocks": "Embers' Blocks"
 
 }
