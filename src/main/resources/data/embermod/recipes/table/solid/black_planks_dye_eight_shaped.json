@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "yyy","yxy","yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:grouped/planks"
+    },
+    "x": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:black_plank",
+    "count": 8
+  }
+}

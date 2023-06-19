@@ -7,3 +7,5 @@ loot tables
 added
 Slabs
 -colored Planks
+----
+added black_plank crafting with tags
