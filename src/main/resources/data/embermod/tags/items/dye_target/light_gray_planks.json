@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:planks",
+    "embermod:black_planks",
+    "embermod:blue_planks",
+    "embermod:brown_planks",
+    "embermod:cyan_planks",
+    "embermod:gray_planks",
+    "embermod:green_planks",
+    "embermod:light_blue_planks",
+    "embermod:lime_planks",
+    "embermod:magenta_planks",
+    "embermod:orange_planks",
+    "embermod:pink_planks",
+    "embermod:purple_planks",
+    "embermod:red_planks",
+    "embermod:white_planks",
+    "embermod:yellow_planks"
+  ]
+}

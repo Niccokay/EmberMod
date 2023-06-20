@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "#minecraft:planks",
     "embermod:black_planks",

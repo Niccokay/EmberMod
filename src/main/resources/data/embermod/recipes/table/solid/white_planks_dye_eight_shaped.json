@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "yyy",
-    "yxy",
-    "yyy" ],
+  "category": "building",
+  "group": "planks",
+  "pattern": [ "yyy", "yxy", "yyy" ],
   "key": {
     "y": {
-      "tag": "embermod:grouped/planks"
+      "tag": "embermod:dye_target/white_planks"
     },
     "x": {
       "item": "minecraft:white_dye"
     }
   },
   "result":{
-    "item": "embermod:black_plank",
+    "item": "embermod:white_planks",
     "count": 8
   }
 }

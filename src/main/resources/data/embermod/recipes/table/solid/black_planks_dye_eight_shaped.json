@@ -1,9 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "planks",
   "pattern": [ "yyy","yxy","yyy" ],
   "key": {
     "y": {
-      "tag": "embermod:grouped/planks"
+      "tag": "embermod:dye_target/black_planks"
     },
     "x": {
       "item": "minecraft:black_dye"

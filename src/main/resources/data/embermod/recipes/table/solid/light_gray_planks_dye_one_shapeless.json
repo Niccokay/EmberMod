@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
   "ingredients": [
     {
-      "tag": "embermod:grouped/planks"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:light_gray_dye"
+      "tag": "embermod:dye_target/light_gray_planks"
     }
   ],
   "result":{
-    "item": "embermod:black_plank",
+    "item": "embermod:light_gray_planks",
     "count": 1
   }
 }

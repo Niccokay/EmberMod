@@ -1,11 +1,23 @@
-Organizational Improvements
+~Organizational Improvements
 -restructuring
 ----
-fixed
+~fixed
 loot tables
 
-added
+~added
 Slabs
 -colored Planks
 ----
 added black_plank crafting with tags
+===
+~Fixed
+Tags
+- folder name typo
+- added tags for colored planks tageting (excludes that color)
+Recipes
+- Correct outputs for Colored planks
+- Typo in output name (plank -> planks)
+- Edge Cases addressed
+-- dying colored plank to it's same color
+- Category & Groups
+- one line pattern used
