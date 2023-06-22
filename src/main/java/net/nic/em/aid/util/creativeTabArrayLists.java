@@ -9,10 +9,16 @@ import java.util.ArrayList;
 
 import static net.nic.em.block.slab.slabColoredPlanks.*;
 import static net.nic.em.block.solid.planksColored.*;
+import static net.nic.em.block.rotatedaxisblock.rabLog.*;
+import static net.nic.em.block.rotatedaxisblock.rabStrippedLogs.*;
+import static net.nic.em.block.rotatedaxisblock.rabWoods.*;
+import static net.nic.em.block.rotatedaxisblock.rabStrippedWoods.*;
 
 public class creativeTabArrayLists {
+
     public static @NotNull ArrayList<RegistryObject<Block>> getColoredPlanks() {
         ArrayList<RegistryObject<Block>> out = new ArrayList<>();
+        //planks
         out.add(BLACK_PLANKS);
         out.add(BLUE_PLANKS);
         out.add(BROWN_PLANKS);
@@ -29,10 +35,81 @@ public class creativeTabArrayLists {
         out.add(RED_PLANKS);
         out.add(WHITE_PLANKS);
         out.add(YELLOW_PLANKS);
+        //logs
+        out.add(BLACK_LOG);
+        out.add(BLUE_LOG);
+        out.add(BROWN_LOG);
+        out.add(CYAN_LOG);
+        out.add(GRAY_LOG);
+        out.add(GREEN_LOG);
+        out.add(LIGHT_BLUE_LOG);
+        out.add(LIGHT_GRAY_LOG);
+        out.add(LIME_LOG);
+        out.add(MAGENTA_LOG);
+        out.add(ORANGE_LOG);
+        out.add(PINK_LOG);
+        out.add(PURPLE_LOG);
+        out.add(RED_LOG);
+        out.add(WHITE_LOG);
+        out.add(YELLOW_LOG);
+        //stripped logs
+        out.add(STRIPPED_BLACK_LOG);
+        out.add(STRIPPED_BLUE_LOG);
+        out.add(STRIPPED_BROWN_LOG);
+        out.add(STRIPPED_CYAN_LOG);
+        out.add(STRIPPED_GRAY_LOG);
+        out.add(STRIPPED_GREEN_LOG);
+        out.add(STRIPPED_LIGHT_BLUE_LOG);
+        out.add(STRIPPED_LIGHT_GRAY_LOG);
+        out.add(STRIPPED_LIME_LOG);
+        out.add(STRIPPED_MAGENTA_LOG);
+        out.add(STRIPPED_ORANGE_LOG);
+        out.add(STRIPPED_PINK_LOG);
+        out.add(STRIPPED_PURPLE_LOG);
+        out.add(STRIPPED_RED_LOG);
+        out.add(STRIPPED_WHITE_LOG);
+        out.add(STRIPPED_YELLOW_LOG);
+        //wood
+        out.add(BLACK_WOOD);
+        out.add(BLUE_WOOD);
+        out.add(BROWN_WOOD);
+        out.add(CYAN_WOOD);
+        out.add(GRAY_WOOD);
+        out.add(GREEN_WOOD);
+        out.add(LIGHT_BLUE_WOOD);
+        out.add(LIGHT_GRAY_WOOD);
+        out.add(LIME_WOOD);
+        out.add(MAGENTA_WOOD);
+        out.add(ORANGE_WOOD);
+        out.add(PINK_WOOD);
+        out.add(PURPLE_WOOD);
+        out.add(RED_WOOD);
+        out.add(WHITE_WOOD);
+        out.add(YELLOW_WOOD);
+        //stripped wood
+        out.add(STRIPPED_BLACK_WOOD);
+        out.add(STRIPPED_BLUE_WOOD);
+        out.add(STRIPPED_BROWN_WOOD);
+        out.add(STRIPPED_CYAN_WOOD);
+        out.add(STRIPPED_GRAY_WOOD);
+        out.add(STRIPPED_GREEN_WOOD);
+        out.add(STRIPPED_LIGHT_BLUE_WOOD);
+        out.add(STRIPPED_LIGHT_GRAY_WOOD);
+        out.add(STRIPPED_LIME_WOOD);
+        out.add(STRIPPED_MAGENTA_WOOD);
+        out.add(STRIPPED_ORANGE_WOOD);
+        out.add(STRIPPED_PINK_WOOD);
+        out.add(STRIPPED_PURPLE_WOOD);
+        out.add(STRIPPED_RED_WOOD);
+        out.add(STRIPPED_WHITE_WOOD);
+        out.add(STRIPPED_YELLOW_WOOD);
+
         return out;
     }
     public static @NotNull ArrayList<RegistryObject<SlabBlock>> getColoredPlankSlabs() {
         ArrayList<RegistryObject<SlabBlock>> out = new ArrayList<>();
+
+        //planks
         out.add(BLACK_PLANK_SLAB);
         out.add(BLUE_PLANK_SLAB);
         out.add(BROWN_PLANK_SLAB);

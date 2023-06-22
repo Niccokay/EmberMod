@@ -26,6 +26,8 @@ public class regList {
         // Rotated Axis Blocks (Logs)
         rabLog.register(eventBus);
         rabWoods.register(eventBus);
+        rabStrippedLogs.register(eventBus);
+        rabStrippedWoods.register(eventBus);
 
         // Slabs
         slabColoredPlanks.register(eventBus);
