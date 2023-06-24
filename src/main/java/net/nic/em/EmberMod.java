@@ -55,8 +55,8 @@ public class EmberMod
     }
 
     private void addCreative(@NotNull BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == EMBER_BLOCK.getKey()) { getFullBlockList().forEach(event::accept); }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) { getBuildingBlockList().forEach(event::accept); }
+        if (event.getTabKey() == EMBER_BLOCK.getKey()) { getFullBlockAsItemsList().forEach(event::accept); }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) { getBuildingBlockAsItemsList().forEach(event::accept); }
 
     }
 

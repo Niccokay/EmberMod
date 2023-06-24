@@ -5,7 +5,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
@@ -13,8 +12,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 
 import static net.nic.em.EmberMod.MODID;
-import static net.nic.em.aid.util.creativeTabArrayLists.getColoredPlankSlabs;
-import static net.nic.em.aid.util.creativeTabArrayLists.getColoredPlanks;
+import static net.nic.em.aid.util.creativeTabArrayLists.*;
 import static net.nic.em.block.solid.planksColored.BLACK_PLANKS;
 
 public class emberCreativeTabs {
@@ -25,15 +23,11 @@ public class emberCreativeTabs {
             .build());
 
 
-    public static @NotNull ArrayList<RegistryObject<? extends ItemLike>> getBuildingBlockList() {
-        ArrayList<RegistryObject<? extends ItemLike>> out = new ArrayList<>();
-        out.addAll(getColoredPlanks());
-        out.addAll(getColoredPlankSlabs());
-        return out;
+    // The following two are used to call the item side of the registered Blocks, and even merge Item & Block RegistryObjects into one.
+    public static @NotNull ArrayList<RegistryObject<? extends ItemLike>> getBuildingBlockAsItemsList() {
+        return new ArrayList<>(getBuildingBlocks());
     }
-    public static @NotNull ArrayList<RegistryObject<? extends ItemLike>> getFullBlockList() {
-        ArrayList<RegistryObject<? extends ItemLike>> out = new ArrayList<>();
-        out.addAll(getBuildingBlockList());
-        return out;
+    public static @NotNull ArrayList<RegistryObject<? extends ItemLike>> getFullBlockAsItemsList() {
+        return new ArrayList<>(getAllBlocks());
     }
 }

@@ -5,10 +5,16 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.nic.em.aid.block.modAxisBlock;
 
 import javax.annotation.Nullable;
 import java.util.function.Supplier;
@@ -20,26 +26,23 @@ public class rabStrippedWoods {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
     // public static final RegistryObject<RotatedPillarBlock> COLOR_STRIPPED_WOOD = register("color_stripped_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 1000);
-<<<<<<< Updated upstream
-=======
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_BLACK_WOOD = register("stripped_black_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_BLUE_WOOD = register("stripped_blue_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_BROWN_WOOD = register("stripped_brown_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_CYAN_WOOD = register("stripped_cyan_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_GRAY_WOOD = register("stripped_gray_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_GREEN_WOOD = register("stripped_green_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_LIGHT_BLUE_WOOD = register("stripped_light_blue_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_LIGHT_GRAY_WOOD = register("stripped_light_gray_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_LIME_WOOD = register("stripped_lime_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_MAGENTA_WOOD = register("stripped_magenta_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_ORANGE_WOOD = register("stripped_orange_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_PINK_WOOD = register("stripped_pink_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_PURPLE_WOOD = register("stripped_purple_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_RED_WOOD = register("stripped_red_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_WHITE_WOOD = register("stripped_white_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
+    public static final RegistryObject<RotatedPillarBlock> STRIPPED_YELLOW_WOOD = register("stripped_yellow_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
 
-    public static final RegistryObject<Block> STRIPPED_BLACK_WOOD = register("stripped_black_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_BLUE_WOOD = register("stripped_blue_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_BROWN_WOOD = register("stripped_brown_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_CYAN_WOOD = register("stripped_cyan_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_GRAY_WOOD = register("stripped_gray_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_GREEN_WOOD = register("stripped_green_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_LIGHT_BLUE_WOOD = register("stripped_light_blue_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_LIGHT_GRAY_WOOD = register("stripped_light_gray_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_LIME_WOOD = register("stripped_lime_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_MAGENTA_WOOD = register("stripped_magenta_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_ORANGE_WOOD = register("stripped_orange_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_PINK_WOOD = register("stripped_pink_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_PURPLE_WOOD = register("stripped_purple_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_RED_WOOD = register("stripped_red_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_WHITE_WOOD = register("stripped_white_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
-    public static final RegistryObject<Block> STRIPPED_YELLOW_WOOD = register("stripped_yellow_wood", () -> new modAxisBlock(BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F).sound(SoundType.WOOD).ignitedByLava(), null), 300);
->>>>>>> Stashed changes
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

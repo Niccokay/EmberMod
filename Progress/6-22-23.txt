@@ -1,0 +1,5 @@
+Organization enforced
+Types adhered to
+backbone logic setup
+- enables easier additions to the blocks without minimal additions,
+Comments added to help clarify a few things.
