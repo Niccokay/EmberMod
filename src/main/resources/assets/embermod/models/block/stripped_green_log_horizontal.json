@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "embermod:block/stripped_green_log_top",
+    "side": "embermod:block/stripped_green_log"
+  }
+}

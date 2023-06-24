@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "embermod:block/stripped_magenta_log_top",
+    "side": "embermod:block/stripped_magenta_log"
+  }
+}

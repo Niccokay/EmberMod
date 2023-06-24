@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "embermod:block/white_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "embermod:block/white_log"
+    },
+    "axis=z": {
+      "model": "embermod:block/white_log_horizontal",
+      "x": 90
+    }
+  }
+}

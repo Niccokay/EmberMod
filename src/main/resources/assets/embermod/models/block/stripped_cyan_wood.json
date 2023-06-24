@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "embermod:block/stripped_cyan_log",
+    "side": "embermod:block/stripped_cyan_log"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "embermod:block/yellow_log_top",
+    "side": "embermod:block/yellow_log"
+  }
+}

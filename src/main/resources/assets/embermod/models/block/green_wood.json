@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "embermod:block/green_log",
+    "side": "embermod:block/green_log"
+  }
+}

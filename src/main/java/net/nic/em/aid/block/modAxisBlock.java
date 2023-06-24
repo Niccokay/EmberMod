@@ -16,8 +16,8 @@ import static net.minecraftforge.common.ToolActions.AXE_STRIP;
 
 public class modAxisBlock extends RotatedPillarBlock {
     private final BlockState stripped;
-    public modAxisBlock(Properties p_55926_, BlockState StrippedState) {
-        super(p_55926_);
+    public modAxisBlock(Properties properties, BlockState StrippedState) {
+        super(properties);
         stripped = StrippedState;
     }
 
