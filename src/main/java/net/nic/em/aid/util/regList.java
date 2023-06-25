@@ -7,6 +7,7 @@ import net.nic.em.block.rotatedaxisblock.rabStrippedWoods;
 import net.nic.em.block.rotatedaxisblock.rabWoods;
 import net.nic.em.block.slab.slabColoredPlanks;
 import net.nic.em.block.solid.planksColored;
+import net.nic.em.block.stairs.StairsColoredStairs;
 
 public class regList {
     public static void priority(IEventBus eventBus) {
@@ -27,8 +28,10 @@ public class regList {
         rabLog.register(eventBus);
         rabWoods.register(eventBus);
 
-
         // Slabs
         slabColoredPlanks.register(eventBus);
+
+        // Stairs
+        StairsColoredStairs.register(eventBus);
     }
 }

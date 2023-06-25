@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "embermod:block/magenta_planks",
+    "side": "embermod:block/magenta_planks",
+    "top": "embermod:block/magenta_planks"
+  }
+}

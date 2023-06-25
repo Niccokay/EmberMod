@@ -3,6 +3,7 @@ package net.nic.em.aid.util;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 
@@ -14,6 +15,7 @@ import static net.nic.em.block.rotatedaxisblock.rabLog.*;
 import static net.nic.em.block.rotatedaxisblock.rabStrippedLogs.*;
 import static net.nic.em.block.rotatedaxisblock.rabWoods.*;
 import static net.nic.em.block.rotatedaxisblock.rabStrippedWoods.*;
+import static net.nic.em.block.stairs.StairsColoredStairs.*;
 
 public class creativeTabArrayLists {
     // Keep separate Pages for registrations in their own ArrayList with the correct Type in the RegistryObject.
@@ -137,6 +139,27 @@ public class creativeTabArrayLists {
         out.add(YELLOW_PLANK_SLAB);
         return out;
     }
+    public static @NotNull ArrayList<RegistryObject<StairBlock>> getStairsColoredStairs() {
+        ArrayList<RegistryObject<StairBlock>> out = new ArrayList<>();
+        out.add(BLACK_PLANK_STAIRS);
+        out.add(BLUE_PLANK_STAIRS);
+        out.add(BROWN_PLANK_STAIRS);
+        out.add(CYAN_PLANK_STAIRS);
+        out.add(GRAY_PLANK_STAIRS);
+        out.add(GREEN_PLANK_STAIRS);
+        out.add(LIGHT_BLUE_PLANK_STAIRS);
+        out.add(LIGHT_GRAY_PLANK_STAIRS);
+        out.add(LIME_PLANK_STAIRS);
+        out.add(MAGENTA_PLANK_STAIRS);
+        out.add(ORANGE_PLANK_STAIRS);
+        out.add(PINK_PLANK_STAIRS);
+        out.add(PURPLE_PLANK_STAIRS);
+        out.add(RED_PLANK_STAIRS);
+        out.add(WHITE_PLANK_STAIRS);
+        out.add(YELLOW_PLANK_STAIRS);
+        return out;
+    }
+
     // Used to call for primary registering to the Building Blocks Creative Tab
     // More will be used if the diversity of items & uses expands.
     public static @NotNull ArrayList<RegistryObject<? extends Block>> getBuildingBlocks() {
@@ -147,6 +170,7 @@ public class creativeTabArrayLists {
         out.addAll(getStrippedColoredLogs());
         out.addAll(getColoredPlanks());
         out.addAll(getColoredPlankSlabs());
+        out.addAll(getStairsColoredStairs());
         return out;
     }
     // Used as complete list for all blocks, used for registering in mods Creative Tab menu

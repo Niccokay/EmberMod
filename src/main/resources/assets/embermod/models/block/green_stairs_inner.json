@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "embermod:block/green_planks",
+    "side": "embermod:block/green_planks",
+    "top": "embermod:block/green_planks"
+  }
+}
