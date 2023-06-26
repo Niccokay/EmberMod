@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#embermod:grouped/mc_wood_stairs",
+    "embermod:black_stairs",
+    "embermod:blue_stairs",
+    "embermod:brown_stairs",
+    "embermod:cyan_stairs",
+    "embermod:gray_stairs",
+    "embermod:green_stairs",
+    "embermod:light_blue_stairs",
+    "embermod:light_gray_stairs",
+    "embermod:lime_stairs",
+    "embermod:magenta_stairs",
+    "embermod:pink_stairs",
+    "embermod:purple_stairs",
+    "embermod:red_stairs",
+    "embermod:white_stairs",
+    "embermod:yellow_stairs"
+  ]
+}

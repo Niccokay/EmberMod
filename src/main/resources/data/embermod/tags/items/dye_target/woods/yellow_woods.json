@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#embermod:grouped/mc_woods",
+    "embermod:black_wood",
+    "embermod:blue_wood",
+    "embermod:brown_wood",
+    "embermod:cyan_wood",
+    "embermod:gray_wood",
+    "embermod:green_wood",
+    "embermod:light_blue_wood",
+    "embermod:light_gray_wood",
+    "embermod:lime_wood",
+    "embermod:magenta_wood",
+    "embermod:orange_wood",
+    "embermod:pink_wood",
+    "embermod:purple_wood",
+    "embermod:red_wood",
+    "embermod:white_wood"
+  ]
+}

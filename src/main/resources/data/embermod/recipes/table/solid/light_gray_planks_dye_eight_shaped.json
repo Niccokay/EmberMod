@@ -5,7 +5,7 @@
   "pattern": [ "yyy", "yxy", "yyy" ],
   "key": {
     "y": {
-      "tag": "embermod:dye_target/light_gray_planks"
+      "tag": "embermod:dye_target/planks/light_gray_planks"
     },
     "x": {
       "item": "minecraft:light_gray_dye"

@@ -1,1 +1,3 @@
 Updated Stair registration
+------
+updated tags to current registered blocks that are multi-colored
