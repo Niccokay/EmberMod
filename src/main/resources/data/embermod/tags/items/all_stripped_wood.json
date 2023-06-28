@@ -1,16 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:stripped_acacia_wood",
-    "minecraft:stripped_birch_wood",
-    "minecraft:stripped_cherry_wood",
-    "minecraft:stripped_dark_oak_wood",
-    "minecraft:stripped_jungle_wood",
-    "minecraft:stripped_mangrove_wood",
-    "minecraft:stripped_oak_wood",
-    "minecraft:stripped_spruce_wood",
-    "minecraft:stripped_warped_stem",
-    "minecraft:stripped_crimson_stem",
+    "#embermod:grouped/mc_stripped_woods",
     "embermod:stripped_black_wood",
     "embermod:stripped_blue_wood",
     "embermod:stripped_brown_wood",
