@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stripped_log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/stripped_log/stripped_green_log"
+    },
+    "x": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:stripped_green_log",
+    "count": 8
+  }
+}

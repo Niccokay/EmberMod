@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/lime_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:lime_log",
+    "count": 1
+  }
+}

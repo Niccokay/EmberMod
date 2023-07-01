@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/log/lime_log"
+    },
+    "x": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:lime_log",
+    "count": 8
+  }
+}

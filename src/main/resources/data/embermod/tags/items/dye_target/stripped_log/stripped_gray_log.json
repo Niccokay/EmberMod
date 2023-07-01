@@ -1,7 +1,15 @@
  {
   "replace": false,
   "values": [
-    "#embermod:grouped/mc_stripped_logs",
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_mangrove_log",
+    "minecraft:stripped_cherry_log",
+
     "embermod:stripped_black_log",
     "embermod:stripped_blue_log",
     "embermod:stripped_brown_log",

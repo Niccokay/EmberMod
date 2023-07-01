@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stripped_wood",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "tag": "embermod:dye_target/stripped_wood/stripped_lime_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:stripped_lime_wood",
+    "count": 1
+  }
+}

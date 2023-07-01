@@ -1,7 +1,14 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:logs",
+    "minecraft:acacia_log",
+    "minecraft:oak_log",
+    "minecraft:dark_oak_log",
+    "minecraft:birch_log",
+    "minecraft:spruce_log",
+    "minecraft:jungle_log",
+    "minecraft:mangrove_log",
+    "minecraft:cherry_log",
     "embermod:black_log",
     "embermod:blue_log",
     "embermod:cyan_log",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/magenta_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:magenta_log",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/wood/lime_wood"
+    },
+    "x": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:lime_wood",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stripped_log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/stripped_log/stripped_light_gray_log"
+    },
+    "x": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:stripped_light_gray_log",
+    "count": 8
+  }
+}

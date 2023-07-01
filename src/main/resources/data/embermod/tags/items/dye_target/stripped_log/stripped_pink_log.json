@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_mangrove_log",
+    "minecraft:stripped_cherry_log",
+
+    "embermod:stripped_black_log",
+    "embermod:stripped_blue_log",
+    "embermod:stripped_brown_log",
+    "embermod:stripped_cyan_log",
+    "embermod:stripped_gray_log",
+    "embermod:stripped_green_log",
+    "embermod:stripped_light_blue_log",
+    "embermod:stripped_light_gray_log",
+    "embermod:stripped_lime_log",
+    "embermod:stripped_magenta_log",
+    "embermod:stripped_orange_log",
+    "embermod:stripped_purple_log",
+    "embermod:stripped_red_log",
+    "embermod:stripped_white_log",
+    "embermod:stripped_yellow_log"
+  ]
+}

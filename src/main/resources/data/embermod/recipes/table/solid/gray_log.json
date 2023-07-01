@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/gray_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:gray_log",
+    "count": 1
+  }
+}

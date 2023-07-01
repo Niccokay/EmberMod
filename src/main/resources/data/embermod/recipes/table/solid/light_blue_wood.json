@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "tag": "embermod:dye_target/wood/light_blue_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:light_blue_wood",
+    "count": 1
+  }
+}

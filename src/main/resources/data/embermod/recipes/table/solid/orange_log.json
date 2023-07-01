@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/orange_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:orange_log",
+    "count": 1
+  }
+}

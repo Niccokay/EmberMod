@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/wood/green_wood"
+    },
+    "x": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:green_wood",
+    "count": 8
+  }
+}

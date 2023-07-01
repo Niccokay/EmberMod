@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/wood/purple_wood"
+    },
+    "x": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:purple_wood",
+    "count": 8
+  }
+}

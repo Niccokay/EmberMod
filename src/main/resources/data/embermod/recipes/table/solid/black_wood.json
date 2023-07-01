@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "tag": "embermod:dye_target/wood/black_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:black_wood",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/purple_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:purple_log",
+    "count": 1
+  }
+}

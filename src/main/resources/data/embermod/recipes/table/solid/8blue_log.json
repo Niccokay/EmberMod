@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/log/blue_log"
+    },
+    "x": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:blue_log",
+    "count": 8
+  }
+}

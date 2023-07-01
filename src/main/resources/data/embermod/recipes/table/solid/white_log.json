@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "log",
+  "ingredients": [
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "tag": "embermod:dye_target/log/white_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:white_log",
+    "count": 1
+  }
+}
