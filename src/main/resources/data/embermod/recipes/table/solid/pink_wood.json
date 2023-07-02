@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "tag": "embermod:dye_target/wood/pink_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:pink_wood",
+    "count": 1
+  }
+}

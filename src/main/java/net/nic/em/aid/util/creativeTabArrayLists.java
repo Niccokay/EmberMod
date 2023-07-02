@@ -173,6 +173,8 @@ public class creativeTabArrayLists {
         out.addAll(getStairsColoredStairs());
         return out;
     }
+
+
     // Used as complete list for all blocks, used for registering in mods Creative Tab menu
     public static @NotNull ArrayList<RegistryObject<? extends Block>> getAllBlocks() {
         ArrayList<RegistryObject<? extends Block>> out = new ArrayList<>();

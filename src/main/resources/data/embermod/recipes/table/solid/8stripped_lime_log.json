@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stripped_log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/stripped_log/stripped_lime_log"
+    },
+    "x": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:stripped_lime_log",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/log/cyan_log"
+    },
+    "x": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:cyan_log",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stripped_wood",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/stripped_wood/stripped_blue_wood"
+    },
+    "x": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:stripped_blue_wood",
+    "count": 8
+  }
+}

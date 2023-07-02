@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stripped_log",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "tag": "embermod:dye_target/stripped_log/stripped_lime_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:stripped_lime_log",
+    "count": 1
+  }
+}

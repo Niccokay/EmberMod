@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stripped_wood",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "tag": "embermod:dye_target/stripped_wood/stripped_blue_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:stripped_blue_wood",
+    "count": 1
+  }
+}

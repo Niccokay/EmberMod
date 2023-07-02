@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "log",
+  "pattern": [ "yyy", "yxy", "yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/log/magenta_log"
+    },
+    "x": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:magenta_log",
+    "count": 8
+  }
+}

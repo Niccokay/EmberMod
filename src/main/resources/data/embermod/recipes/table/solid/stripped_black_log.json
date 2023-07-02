@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "stripped_log",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "tag": "embermod:dye_target/stripped_log/stripped_black_log"
+    }
+  ],
+  "result":{
+    "item": "embermod:stripped_black_log",
+    "count": 1
+  }
+}

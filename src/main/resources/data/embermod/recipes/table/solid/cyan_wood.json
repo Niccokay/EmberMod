@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "tag": "embermod:dye_target/wood/cyan_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:cyan_wood",
+    "count": 1
+  }
+}

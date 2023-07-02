@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wood",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "tag": "embermod:dye_target/wood/lime_wood"
+    }
+  ],
+  "result":{
+    "item": "embermod:lime_wood",
+    "count": 1
+  }
+}

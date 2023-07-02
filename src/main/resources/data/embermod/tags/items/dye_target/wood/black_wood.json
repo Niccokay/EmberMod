@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:acacia_wood",
+    "minecraft:oak_wood",
+    "minecraft:dark_oak_wood",
+    "minecraft:birch_wood",
+    "minecraft:spruce_wood",
+    "minecraft:jungle_wood",
+    "minecraft:mangrove_wood",
+    "minecraft:cherry_wood",
+    "embermod:blue_wood",
+    "embermod:brown_wood",
+    "embermod:cyan_wood",
+    "embermod:gray_wood",
+    "embermod:green_wood",
+    "embermod:light_blue_wood",
+    "embermod:light_gray_wood",
+    "embermod:lime_wood",
+    "embermod:magenta_wood",
+    "embermod:orange_wood",
+    "embermod:pink_wood",
+    "embermod:purple_wood",
+    "embermod:red_wood",
+    "embermod:white_wood",
+    "embermod:yellow_wood"
+  ]
+}

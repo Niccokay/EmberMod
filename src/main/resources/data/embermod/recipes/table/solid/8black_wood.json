@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "pattern": [ "yyy","yxy","yyy" ],
+  "key": {
+    "y": {
+      "tag": "embermod:dye_target/wood/black_wood"
+    },
+    "x": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result":{
+    "item": "embermod:black_wood",
+    "count": 8
+  }
+}
