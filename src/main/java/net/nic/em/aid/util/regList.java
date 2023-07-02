@@ -8,6 +8,7 @@ import net.nic.em.block.rotatedaxisblock.rabWoods;
 import net.nic.em.block.slab.slabColoredPlanks;
 import net.nic.em.block.solid.planksColored;
 import net.nic.em.block.stairs.StairsColoredStairs;
+import net.nic.em.items.genItems;
 
 public class regList {
     public static void priority(IEventBus eventBus) {
@@ -19,7 +20,7 @@ public class regList {
     }
     public static void List(IEventBus eventBus) {
         // Items
-        // genItems.register(eventBus);
+        genItems.register(eventBus);
 
         // General Blocks
         planksColored.register(eventBus);
