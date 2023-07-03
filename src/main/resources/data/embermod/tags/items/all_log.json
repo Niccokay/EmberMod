@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:logs",
+    "#minecraft:logs_that_burn",
     "embermod:black_log",
     "embermod:blue_log",
     "embermod:brown_log",

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:planks",
+    "#embermod:grouped/mc_planks",
     "embermod:black_planks",
     "embermod:blue_planks",
     "embermod:brown_planks",

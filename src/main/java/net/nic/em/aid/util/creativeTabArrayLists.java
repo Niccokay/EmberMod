@@ -1,5 +1,6 @@
 package net.nic.em.aid.util;
 
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SlabBlock;
@@ -9,13 +10,16 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
-import static net.nic.em.block.slab.slabColoredPlanks.*;
-import static net.nic.em.block.solid.planksColored.*;
 import static net.nic.em.block.rotatedaxisblock.rabLog.*;
 import static net.nic.em.block.rotatedaxisblock.rabStrippedLogs.*;
-import static net.nic.em.block.rotatedaxisblock.rabWoods.*;
 import static net.nic.em.block.rotatedaxisblock.rabStrippedWoods.*;
+import static net.nic.em.block.rotatedaxisblock.rabWoods.*;
+import static net.nic.em.block.slab.slabColoredPlanks.*;
+import static net.nic.em.block.solid.planksColored.*;
 import static net.nic.em.block.stairs.StairsColoredStairs.*;
+import static net.nic.em.items.priorityGenItems.*;
+import static net.nic.em.items.genItems.WOODEN_MILK_BUCKET;
+import static net.nic.em.items.genItems.WOODEN_WATER_BUCKET;
 
 public class creativeTabArrayLists {
     // Keep separate Pages for registrations in their own ArrayList with the correct Type in the RegistryObject.
@@ -160,6 +164,13 @@ public class creativeTabArrayLists {
         return out;
     }
 
+    public static @NotNull ArrayList<RegistryObject<Item>> getBucketItems() {
+        ArrayList<RegistryObject<Item>> out = new ArrayList<>();
+        out.add(WOODEN_BUCKET);
+        out.add(WOODEN_MILK_BUCKET);
+        out.add(WOODEN_WATER_BUCKET);
+        return out;
+    }
     // Used to call for primary registering to the Building Blocks Creative Tab
     // More will be used if the diversity of items & uses expands.
     public static @NotNull ArrayList<RegistryObject<? extends Block>> getBuildingBlocks() {
@@ -174,12 +185,15 @@ public class creativeTabArrayLists {
         return out;
     }
 
-
-    // Used as complete list for all blocks, used for registering in mods Creative Tab menu
+    // Used as a complete list for all blocks/Items, used for registering in mods Creative Tab menu
     public static @NotNull ArrayList<RegistryObject<? extends Block>> getAllBlocks() {
         ArrayList<RegistryObject<? extends Block>> out = new ArrayList<>();
         out.addAll(getBuildingBlocks());
         return out;
     }
-
+    public static @NotNull ArrayList<RegistryObject<? extends Item>> getAllItems() {
+        ArrayList<RegistryObject<? extends Item>> out = new ArrayList<>();
+        out.addAll(getBucketItems());
+        return out;
+    }
 }

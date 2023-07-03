@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#embermod:logs/colored_logs",
+    "#embermod:logs/colored_stripped_logs",
+    "#embermod:planks/colored_planks",
+    "#embermod:woods/colored_woods",
+    "#embermod:woods/colored_stripped_woods"
+  ]
+}

@@ -1,14 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:acacia_wood",
-    "minecraft:oak_wood",
-    "minecraft:dark_oak_wood",
-    "minecraft:birch_wood",
-    "minecraft:spruce_wood",
-    "minecraft:jungle_wood",
-    "minecraft:mangrove_wood",
-    "minecraft:cherry_wood",
+    "#embermod:grouped/mc_woods",
     "embermod:black_wood",
     "embermod:brown_wood",
     "embermod:cyan_wood",

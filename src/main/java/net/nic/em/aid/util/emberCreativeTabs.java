@@ -28,6 +28,9 @@ public class emberCreativeTabs {
         return new ArrayList<>(getBuildingBlocks());
     }
     public static @NotNull ArrayList<RegistryObject<? extends ItemLike>> getFullBlockAsItemsList() {
-        return new ArrayList<>(getAllBlocks());
+        ArrayList<RegistryObject<? extends ItemLike>> out = new ArrayList<>();
+        out.addAll(getAllBlocks());
+        out.addAll(getAllItems());
+        return out;
     }
 }

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "embermod:black_log",
+    "embermod:blue_log",
+    "embermod:brown_log",
+    "embermod:cyan_log",
+    "embermod:gray_log",
+    "embermod:green_log",
+    "embermod:light_blue_log",
+    "embermod:light_gray_log",
+    "embermod:lime_log",
+    "embermod:magenta_log",
+    "embermod:orange_log",
+    "embermod:pink_log",
+    "embermod:purple_log",
+    "embermod:red_log",
+    "embermod:white_log",
+    "embermod:yellow_log"
+  ]
+}

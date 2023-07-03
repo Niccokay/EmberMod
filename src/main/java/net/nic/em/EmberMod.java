@@ -11,9 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.nic.em.block.rotatedaxisblock.rabLog;
-import net.nic.em.block.rotatedaxisblock.rabStrippedWoods;
-import net.nic.em.block.rotatedaxisblock.rabWoods;
 import org.jetbrains.annotations.NotNull;
 
 import static net.nic.em.aid.util.emberCreativeTabs.*;
@@ -34,7 +31,7 @@ public class EmberMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for mod-loading
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
